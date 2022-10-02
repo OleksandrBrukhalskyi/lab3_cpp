@@ -6,7 +6,7 @@ import org.junit.Test;
 public class HelloApplicationTest {
 
     @Test
-    public void checkIfPointOwns() {
+    public void checkIfPointLyingInside() {
         boolean flag;
         int radius = 0, pointX = 0, pointY = 0;
         pointX = 3; pointY = 3; radius = 4;
@@ -22,7 +22,7 @@ public class HelloApplicationTest {
         Assert.assertTrue(flag);
     }
     @Test
-    public void checkIfPointDoesntOwn() {
+    public void checkIfPointDoesntLying() {
         boolean flag;
         int radius = 0, pointX = 0, pointY = 0;
         pointX = 4; pointY = 4; radius = 4;
